@@ -21,7 +21,7 @@ def main(page: ft.Page):
 
     go_to("splash")
 
-# OBS: assets_dir="assets" -> então, nas Views, use APENAS o nome do arquivo: "background1.png"
 ft.app(target=main, assets_dir="assets")
+
 
 
